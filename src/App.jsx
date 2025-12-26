@@ -20,7 +20,7 @@ const getEnvUrl = () => {
       return import.meta.env.VITE_API_BASE_URL;
   } catch (e) {}
 
-  return "http://72.61.244.162";        
+  return "72.61.244.162";        
 };
 
 
